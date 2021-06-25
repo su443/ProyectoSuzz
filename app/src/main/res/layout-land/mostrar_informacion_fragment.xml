@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.informacionusuario.MostrarInformacionFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/nombreInfo"
+            android:layout_width="516dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="@string/Vacio"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lavelnombre" />
+
+        <EditText
+            android:id="@+id/edadInfo"
+            android:layout_width="518dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/Vacio"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/laveledad" />
+
+        <EditText
+            android:id="@+id/telefonoInfo"
+            android:layout_width="519dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/Vacio"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/laveltelefono" />
+
+        <EditText
+            android:id="@+id/correoInfo"
+            android:layout_width="517dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/Vacio"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lavelcorreo" />
+
+        <ImageView
+            android:id="@+id/fotoInfo"
+            android:layout_width="75dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="12dp"
+            android:contentDescription="@string/Vacio"
+            android:src="@drawable/ic_menu_gallery"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/correoInfo" />
+
+        <Button
+            android:id="@+id/btnEditarInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/Editar"
+            app:layout_constraintEnd_toStartOf="@+id/btnEliminarInfo"
+            app:layout_constraintHorizontal_bias="0.74"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/correoInfo" />
+
+        <Button
+            android:id="@+id/btnEliminarInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="84dp"
+            android:text="@string/Eliminar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/correoInfo" />
+
+        <TextView
+            android:id="@+id/lavelnombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/Nombre"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/laveledad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/Edad"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.499"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nombreInfo" />
+
+        <TextView
+            android:id="@+id/laveltelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/Telefono"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edadInfo" />
+
+        <TextView
+            android:id="@+id/lavelcorreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/Correo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/telefonoInfo" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

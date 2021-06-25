@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/mostrarUsuariosFragment">
+
+    <fragment
+        android:id="@+id/mostrarInformacionFragment"
+        android:name="mx.edu.tesoem.isc.vjs.ProyectoSuzz.ui.informacionusuario.MostrarInformacionFragment"
+        android:label="Informacion"
+        tools:layout="@layout/mostrar_informacion_fragment" />
+    <fragment
+        android:id="@+id/mostrarUsuariosFragment"
+        android:name="mx.edu.tesoem.isc.vjs.ProyectoSuzz.ui.mostrarusuario.MostrarUsuariosFragment"
+        android:label="Usuarios"
+        tools:layout="@layout/mostrar_usuarios_fragment" />
+    <fragment
+        android:id="@+id/actualizarUsuarioFragment"
+        android:name="mx.edu.tesoem.isc.vjs.ProyectoSuzz.ui.actualizarusuario.ActualizarUsuarioFragment"
+        android:label="Actualizar usuario"
+        tools:layout="@layout/actualizar_usuario_fragment" />
+    <fragment
+        android:id="@+id/agregarUsuarioFragment"
+        android:name="mx.edu.tesoem.isc.vjs.ProyectoSuzz.ui.agregarusuario.AgregarUsuarioFragment"
+        android:label="Agregar Usuario"
+        tools:layout="@layout/agregar_usuario_fragment" />
+    <fragment
+        android:id="@+id/eliminarUsuarioFragment"
+        android:name="mx.edu.tesoem.isc.vjs.ProyectoSuzz.ui.eliminarusuario.EliminarUsuarioFragment"
+        android:label="Eliminar usuario"
+        tools:layout="@layout/eliminar_usuario_fragment" />
+
+</navigation>

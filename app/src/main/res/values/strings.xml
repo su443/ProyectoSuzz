@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ProyectoSuzz</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_mu">Mostrar usuarios</string>
+    <string name="menu_miu">Informacion de Usuario</string>
+    <string name="menu_au">Agregar Usuario</string>
+    <string name="menu_eu">Eliminar Usuario</string>
+    <string name="menu_acu">Actualizar Usuario</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Edad">Edad</string>
+    <string name="Telefono">Telefono</string>
+    <string name="btnfoto">Seleccionar foto...</string>
+    <string name="AgregarUsuario">Agregar Usuario</string>
+    <string name="Vacio" />
+    <string name="Correo">Correo</string>
+    <string name="ActualizarUsuario">Actualizar Usuario</string>
+    <string name="Editar">Editar</string>
+    <string name="Eliminar">Eliminar</string>
+</resources>
